@@ -1,0 +1,61 @@
+Express server listening on port 80
+Express server listening on port 80
+[90mGET / [36m304 [90m12ms[0m
+[90mGET /css/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /css/animate.css [36m304 [90m1ms[0m
+[90mGET /css/landing-page.css [36m304 [90m1ms[0m
+[90mGET /css/allCSS.css [36m304 [90m0ms[0m
+[90mGET /font-awesome/css/font-awesome.min.css [36m304 [90m1ms[0m
+[90mGET /Jquery/ratanJquery.js [36m304 [90m0ms[0m
+[90mGET /img/ratan.jpg [36m304 [90m0ms[0m
+[90mGET /img/mlog.png [36m304 [90m1ms[0m
+[90mGET /img/bny-mellon-logo.png [36m304 [90m1ms[0m
+[90mGET /img/hat.png [36m304 [90m1ms[0m
+[90mGET /img/C1.png [36m304 [90m0ms[0m
+[90mGET /img/C2.png [36m304 [90m0ms[0m
+[90mGET /img/C3.png [36m304 [90m1ms[0m
+[90mGET /img/C5.png [36m304 [90m0ms[0m
+[90mGET /img/C6.png [36m304 [90m0ms[0m
+[90mGET /img/epicShare.png [36m304 [90m0ms[0m
+[90mGET /img/dashboard.png [36m304 [90m0ms[0m
+Express server listening on port 80
+[90mGET / [36m304 [90m11ms[0m
+[90mGET /css/bootstrap.min.css [36m304 [90m4ms[0m
+[90mGET /css/landing-page.css [36m304 [90m2ms[0m
+[90mGET /css/animate.css [36m304 [90m3ms[0m
+[90mGET /css/allCSS.css [36m304 [90m2ms[0m
+[90mGET /font-awesome/css/font-awesome.min.css [36m304 [90m1ms[0m
+[90mGET /img/ratan.jpg [36m304 [90m1ms[0m
+[90mGET /Jquery/ratanJquery.js [36m304 [90m0ms[0m
+[90mGET /img/mlog.png [36m304 [90m2ms[0m
+[90mGET /img/bny-mellon-logo.png [36m304 [90m2ms[0m
+[90mGET /img/C2.png [36m304 [90m2ms[0m
+[90mGET /img/C1.png [36m304 [90m2ms[0m
+[90mGET /img/hat.png [36m304 [90m1ms[0m
+[90mGET /img/C3.png [36m304 [90m0ms[0m
+[90mGET /img/C5.png [36m304 [90m0ms[0m
+[90mGET /img/dashboard.png [36m304 [90m2ms[0m
+[90mGET /img/C6.png [36m304 [90m1ms[0m
+[90mGET /img/epicShare.png [36m304 [90m1ms[0m
+[90mGET /img/comming.png [36m304 [90m0ms[0m
+[90mGET /img/Thangam.png [36m304 [90m2ms[0m
+[90mGET /img/ruben.png [36m304 [90m0ms[0m
+[90mGET /img/oscar.png [36m304 [90m0ms[0m
+[90mGET /img/arjun.png [36m304 [90m1ms[0m
+[90mGET /img/arjun2.png [36m304 [90m0ms[0m
+[90mGET /img/gaurao.png [36m304 [90m0ms[0m
+[90mGET /img/anirudha.png [36m304 [90m0ms[0m
+[90mGET /img/krunal.png [36m304 [90m1ms[0m
+[90mGET /img/Mandar.png [36m304 [90m1ms[0m
+[90mGET /img/kanban.jpg [32m200 [90m4ms - 53.24kb[0m
+[90mGET /font-awesome/fonts/fontawesome-webfont.woff?v=4.2.0 [36m304 [90m1ms[0m
+[90mGET /img/ELB1R.png [32m200 [90m1ms - 29.31kb[0m
+[90mGET /img/intro-bg.jpg [36m304 [90m1ms[0m
+[90mGET /img/banner-bg.jpg [32m200 [90m1ms - 97.19kb[0m
+[90mGET / [32m200 [90m10ms - 38.69kb[0m
+[90mGET / [32m200 [90m3ms - 38.69kb[0m
+[90mGET / [32m200 [90m2ms - 38.69kb[0m
+[90mGET / [32m200 [90m1ms - 38.69kb[0m
+[90mGET /robots.txt [33m404 [90m1ms[0m
+[90mGET /img/anirudha.png [32m200 [90m155ms - 99.07kb[0m
+[90mGET /img/comming.png [32m200 [90m143ms - 83.51kb[0m
