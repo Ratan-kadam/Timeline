@@ -15,7 +15,7 @@ exports.getCalciApi= function(req,res1)
    //storage.getCounter= storage.getCounter+1;
    console.log("Entered to Proxy get function");
    var http = require('http');
-  
+
 		   var options = {
 			       hostname: 'localhost',
 			       port    : '3000',
@@ -23,8 +23,8 @@ exports.getCalciApi= function(req,res1)
 			       method  : 'GET',
 			       headers : {
 			           'Content-Type': 'application/json',
-			           'Cache-Control': 'no-cache' 
-			       }  
+			           'Cache-Control': 'no-cache'
+			       }
    };
 
    var req1 = http.get(options, function(res) {
@@ -42,7 +42,7 @@ exports.getCalciApi= function(req,res1)
        var body = Buffer.concat(bodyChunks);
        console.log('BODY: ' + body);
       res1.type('application/json');
-//       
+//
        res1.send(body);
 //       res.end();
        // ...and/or process the entire body here.
@@ -52,6 +52,11 @@ exports.getCalciApi= function(req,res1)
    req.on('error', function(e) {
      console.log('ERROR: ' + e.message);
    });
-  
-   
+
+
 };
+
+exports.getTimelineFeed = function(req, res) {
+  console.log('TimeLineFeed called');
+  res.send(JSON.stringify([{duration: '9 AM'}, {duration: '10PM'}]));
+}
