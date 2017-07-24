@@ -34,7 +34,53 @@ var utilModule = (function () {
     content.innerHTML = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, facilis quo';
     divTimelineContent.appendChild(content);
 
+    var icon = document.createElement('span');
+    var styleClass = getSymbolStyle(pinData.type);
+    icon.setAttribute('class', styleClass);
+
+    var symbol  = document.createElement('div');
+
+    var iconBackgroundColor = "timeLineEventsSymbol " + getSymbolColor(pinData.type);
+    console.log(iconBackgroundColor);
+
+    symbol.setAttribute("class", iconBackgroundColor);
+    symbol.appendChild(icon);
+    outerLi.appendChild(symbol);
+
+    console.log(outerLi);
     return outerLi;
+  }
+
+  this.getSymbolStyle = function (type) {
+    console.log("type:", type);
+    switch (type) {
+      case 'audio':
+        return 'glyphicon glyphicon-check';
+      case 'img':
+        return 'glyphicon glyphicon-credit-card';
+      case 'location':
+        return 'glyphicon glyphicon-thumbs-up';
+      case 'education':
+        return 'glyphicon glyphicon-education';
+      default:
+        return 'glyphicon glyphicon-check';
+    }
+  }
+
+  this.getSymbolColor = function (type) {
+    console.log("type:", type);
+    switch (type) {
+      case 'audio':
+        return 'symbolGreen';
+      case 'img':
+        return 'symbolRed';
+      case 'location':
+        return 'symbolGreen';
+      case 'education':
+        return 'symbolBrown';
+      default:
+        return 'symbolYellow';
+    }
   }
 
   this.getNewTimeLinePin = function (pinData) {
